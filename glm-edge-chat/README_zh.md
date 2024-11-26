@@ -26,12 +26,6 @@ python3 convert.py --model_id ZhipuAI/glm-edge-1.5b-chat --precision int4 --outp
 python3 chat.py --model_path {your_path}/glm-edge-1.5b-chat-ov --max_sequence_length 4096 --device CPU
 ```
 
-or
-
-```
-python3 chat_genai.py --model_path {your_path}/glm-edge-1.5b-chat-ov --max_sequence_length 4096 --device CPU
-```
-
 ### 可以选择的参数
 
 * `--model_path` - OpenVINO IR 模型所在目录的路径。
