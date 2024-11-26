@@ -32,7 +32,7 @@ python3 chat.py --model_path {your_path}/glm-edge-1.5b-chat-ov --max_sequence_le
 * `--max_sequence_length` - 输出标记的最大大小。
 * `--device` - 运行推理的设备。例如："CPU","GPU"。
 
-## 输出示例
+### 输出示例
 
 ```
 用户: 你好

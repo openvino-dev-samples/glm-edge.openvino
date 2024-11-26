@@ -32,7 +32,7 @@ python3 chat.py --model_path {your_path}/glm-edge-1.5b-chat-ov --max_sequence_le
 * `--max_sequence_length` - Maximum size of output tokens.
 * `--device` - The device to run inference on. e.g "CPU","GPU".
 
-## output example
+### Output example
 
 ```
 User: Hello

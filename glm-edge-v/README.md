@@ -34,7 +34,7 @@ python3 qa.py --model_path {your_path}/glm-edge-v-5b-ov --query "Please describe
 * `--image_path` - The path to the input image.
 * `--device` - The device to run inference on. e.g "CPU","GPU".
 
-## output example
+### Output example
 
 ```
 The picture shows a white pickup truck. Specifically, the exterior color of this pickup truck is white with black tires. The design of the vehicle looks practical and suitable for carrying goods and tools. The windshield of the pickup truck is transparent, so you can clearly see into the vehicle. The window glass is blue and the door handles are black.
