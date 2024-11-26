@@ -1,0 +1,11 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+optimum-intel>=1.19.0
+nncf>=2.11.0
+onnx>=1.15.0
+huggingface-hub>=0.21.3
+modelscope
+tiktoken
+torchvision
+openvino>=2024.5.0
+
+git+https://github.com/huggingface/transformers
