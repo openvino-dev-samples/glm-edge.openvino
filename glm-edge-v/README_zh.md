@@ -9,7 +9,7 @@
 由于需要将Huggingface模型转换为OpenVINO IR模型，因此您需要下载模型并转换。
 
 ```
-python3 convert.py --model_id ZhipuAI/glm-edge-v-5b --output {your_path}/glm-edge-v-5b-ov --modelscope
+python3 convert.py --model_id ZhipuAI/glm-edge-v-2b --output {your_path}/glm-edge-v-2b-ov --modelscope
 ```
 
 ### 可以选择的参数
@@ -22,7 +22,7 @@ python3 convert.py --model_id ZhipuAI/glm-edge-v-5b --output {your_path}/glm-edg
 ## 2. 运行流式问答
 
 ```
-python3 qa.py --model_path {your_path}/glm-edge-v-5b-ov --query "请描述这张图片" --image_path {your_path}/your_test_image.jpg --max_sequence_length 4096 --device CPU
+python3 qa.py --model_path {your_path}/glm-edge-v-2b-ov --query "请描述这张图片" --image_path {your_path}/your_test_image.jpg --max_sequence_length 4096 --device CPU
 ```
 
 ### 可以选择的参数

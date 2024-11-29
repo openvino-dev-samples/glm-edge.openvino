@@ -2,7 +2,7 @@ English | [简体中文](README_zh.md)
 
 # glm.openvino Demo
 
-Here is an example of how to deploy glm-edge series models using OpenVINO
+Here is an example of how to deploy [glm-edge](https://github.com/THUDM/GLM-Edge) series models using OpenVINO
 
 ## Environment configuration
 

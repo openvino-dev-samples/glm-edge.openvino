@@ -16,7 +16,7 @@ if __name__ == '__main__':
                         help='Show this help message and exit.')
     parser.add_argument('-m',
                         '--model_id',
-                        default='ZhipuAI/chatglm3-6b',
+                        default='THUDM/glm-edge-1.5b-chat',
                         required=False,
                         type=str,
                         help='orignal model path')

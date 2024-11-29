@@ -12,7 +12,7 @@ if __name__ == '__main__':
                         help='Show this help message and exit.')
     parser.add_argument('-m',
                         '--model_id',
-                        default='THUDM/glm-4v-9b',
+                        default='THUDM/glm-edge-v-2b',
                         required=False,
                         type=str,
                         help='orignal model path')

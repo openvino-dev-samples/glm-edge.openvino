@@ -9,7 +9,7 @@ Here is an example of how to deploy vision mulimodal model `glm-edge-v` using Op
 Since the Huggingface model needs to be converted to an OpenVINO IR model, you need to download the model and convert.
 
 ```
-python3 convert.py --model_id ZhipuAI/glm-edge-v-5b --output {your_path}/glm-edge-v-5b-ov --modelscope
+python3 convert.py --model_id ZhipuAI/glm-edge-v-2b --output {your_path}/glm-edge-v-2b-ov --modelscope
 ```
 
 ### Parameters that can be selected
@@ -22,7 +22,7 @@ python3 convert.py --model_id ZhipuAI/glm-edge-v-5b --output {your_path}/glm-edg
 ## 2. Run the streaming Q&A
 
 ```
-python3 qa.py --model_path {your_path}/glm-edge-v-5b-ov --query "Please describe this picture" --image_path {your_path}/your_test_image.jpg --max_sequence_length 4096 --device CPU
+python3 qa.py --model_path {your_path}/glm-edge-v-2b-ov --query "Please describe this picture" --image_path {your_path}/your_test_image.jpg --max_sequence_length 4096 --device CPU
 ```
 
 
