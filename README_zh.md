@@ -2,7 +2,7 @@
 
 # glm.openvino Demo
 
-这是如何使用 OpenVINO 部署 glm-edge系列模型示例
+这是如何使用 OpenVINO 部署 [glm-edge](https://github.com/THUDM/GLM-Edge)系列模型示例
 
 ## 环境配置
 
@@ -51,10 +51,10 @@ pip install -r requirements.txt
    - 不需要
 
 2. 一定要使用 Intel 的硬件吗？
-  - 我们仅在 Intel 设备上尝试，我们推荐使用x86架构的英特尔设备，包括但不限制于：
-   - 英特尔的CPU，包括个人电脑CPU 和服务器CPU。
-   - 英特尔的集成显卡。 例如：Arc™，Iris® 系列。
-   - 英特尔的独立显卡。例如：ARC™ A770 显卡。
+   - 我们仅在 Intel 设备上尝试，我们推荐使用x86架构的英特尔设备，包括但不限制于：
+     - 英特尔的CPU，包括个人电脑CPU 和服务器CPU。
+     - 英特尔的集成显卡。 例如：Arc™，Iris® 系列。
+     - 英特尔的独立显卡。例如：ARC™ A770 显卡。
   
 3. 为什么OpenVINO没检测到我系统上的GPU设备？
    - 确保OpenCL驱动是安装正确的。

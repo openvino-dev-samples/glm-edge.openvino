@@ -49,14 +49,14 @@ pip install -r requirements.txt
 ## Common problem
 
 1. Do I need to install the OpenVINO C++ inference engine?
-    - Unnecessary
+   - Unnecessary
 
 2. Do I have to use Intel hardware?
-    - We only tried it on Intel devices, and we recommend using x86 architecture Intel devices, including but not
-      limited to:
-    - Intel CPU, including personal computer CPU and server CPU.
-    - Intel's integrated GPU. For example: Arc™ Series and Iris® Series.
-    - Intel's discrete graphics card. For example: ARC™ A770 graphics card.
+   - We only tried it on Intel devices, and we recommend using x86 architecture Intel devices, including but not
+   limited to:
+     - Intel CPU, including personal computer CPU and server CPU.
+     - Intel's integrated GPU. For example: Arc™ Series and Iris® Series.
+     - Intel's discrete graphics card. For example: ARC™ A770 graphics card.
   
 3. Why OpenVINO cannot find GPU device in my system?
    - Ensure OpenCL diivess are installed correctly.
