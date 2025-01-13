@@ -42,8 +42,8 @@ pip install -r requirements.txt
 
 | Tasks               | Go                       |
 | ------------------- | ------------------------ |
-| 🚀 Text generation   | [glm-edge-chat](./glm-egde-chat/README.md)   |
-| 🚀 Vision Multimodal | [glm-edge-v](./glm-egde-v/README.md) |
+| 🚀 Text generation   | [glm-edge-chat](./glm-edge-chat/README.md)   |
+| 🚀 Vision Multimodal | [glm-edge-v](./glm-edge-v/README.md) |
 
 
 ## Common problem
